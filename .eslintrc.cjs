@@ -13,7 +13,7 @@ const config = {
   },
   settings: {
     tailwindcss: {
-      calless: ['cn'],
+      calless: ['cn', 'cva'],
       config: 'tailwind.config.ts',
     },
     next: {

@@ -36,8 +36,8 @@
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    --background: 240 2% 5%;
+    --foreground: 200 16% 96%;
 
     --card: 222.2 84% 4.9%;
     --card-foreground: 210 40% 98%;
@@ -48,7 +48,7 @@
     --primary: 210 40% 98%;
     --primary-foreground: 222.2 47.4% 11.2%;
 
-    --secondary: 217.2 32.6% 17.5%;
+    --secondary: 205 11% 43%;
     --secondary-foreground: 210 40% 98%;
 
     --muted: 217.2 32.6% 17.5%;
@@ -73,4 +73,8 @@
   body {
     @apply bg-background text-foreground;
   }
+}
+
+.btn-gradient {
+  background: linear-gradient(93deg, #e92aa8 0%, #8448e9 100%);
 }
